@@ -10,7 +10,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(myMap);
 
 // Storing API endpoint of the earthquake data
-let link = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson";
+let link = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
 
 // Define function to select marker color based on depth
 function chooseColor(depth) {
